@@ -7,8 +7,8 @@
 
 .home,
 .services,
-.products,
-.sign-up {
+.products
+ {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -26,19 +26,103 @@
 }
 
 .products {
-  background-image: url('./components/images/img-1.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+   position: relative;
+    top:-80px;
+     height: 100vh;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    justify-content: center;
+     box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+     object-fit: contain;
 }
 
 .sign-up {
-  background-image: url('./components/images/img-8.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color:white ;
   color: #fff;
   font-size: 100px;
+}
+video{
+  position: relative;
+  top: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    }
+.container{
+   
+    top:-80px;
+     height: 100%;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    justify-content: center;
+     box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+     object-fit: contain;
+     background-color:transparent ;
+     
+     
+}
+.first{
+  position: absolute;
+  top: 0;
+  height: 40vh;
+  width: 100%;
+  background: rgb(226, 68, 94);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact{
+  top: 40vh;
+  position: absolute;
+  height: 40vh;
+background-color: white;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+float: left;
+align-items: center;
+padding-top: 120px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form>label{
+ padding-top: 10px;
+}
+.form>input{
+  width: 300px;
+}
+.form>textarea{
+  width: 300px;
+}
+.form>button{
+  margin-top: 10px;
+  border: none;
+ width: 200px;
+ height: 30px;
+
+}.form>button:hover{
+  background: rgb(231, 71, 98);
+  color: #fff;
+}
+@media screen and (max-width:1200px){
+  .container{
+   
+  }
+}
+
+@media screen and (max-width:600px){
+   
 }

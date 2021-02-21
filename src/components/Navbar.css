@@ -1,5 +1,5 @@
 .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    background: transparent;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -9,7 +9,9 @@
     top: 0;
     z-index: 999;
   }
-  
+  .navbar_black{
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  }
   .navbar-container {
     display: flex;
     justify-content: center;
@@ -30,6 +32,7 @@
   }
   
   .fa-typo3 {
+    color: white;
     margin-left: 0.5rem;
     font-size: 1.8rem;
   }
