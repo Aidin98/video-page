@@ -8,20 +8,12 @@ import Services from './components/pages/Services'
 
 import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
-import Loading from './Loading';
+
 function App() {
-  const  [loading,setLoading]=useState(false)
-  useEffect(()=>{
-      const timer = setTimeout(() => {
-        setLoading(true)
-        console.log('uslo je timeout')
-        console.log(loading)
-  }, 6000);
-  return () => clearTimeout(timer);
-  },[])
+  
   return (
     <>
-    {loading ? (
+   
       
     
 <Router>
@@ -34,9 +26,9 @@ function App() {
         <Route path='/sign-up' component={SignUp}/>
       </Switch>
       </Router>
-    ):(
-      <Loading />
-    )}
+   
+
+    
     
     </>
   );

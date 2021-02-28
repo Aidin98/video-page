@@ -7,7 +7,7 @@ import ReactTypingEffect from 'react-typing-effect'
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/video-2.mp4' autoPlay loop muted />
+      <video src='https://player.vimeo.com/external/479644998.hd.mp4?s=87746a8dc41b5cf5db19ee0dc4eac0cbcdcacf55&profile_id=174' autoPlay loop muted />
     <h2>
      <Typewriter 
      onInit={(typewriter)=>{
