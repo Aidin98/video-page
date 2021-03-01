@@ -56,6 +56,7 @@ function Footer() {
             <a href='https://www.facebook.com/aidin.basic' target='_blank'>Facebook</a>
             <a href='https://www.linkedin.com/in/aidin-ba%C5%A1i%C4%87-41bb6b206/' target='_blank'>Linkedin</a>
             <a href='https://github.com/Aidin98' target='_blank'>GitHub</a>
+            <a href='#'>Phone: +38762/740-990</a>
           </div>
         </div>
       </div>
