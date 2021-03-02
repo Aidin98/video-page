@@ -29,22 +29,22 @@ export default function Products (){
           </ul>
           <ul className='cards__items' style={{background:'#fff',padding:'10px',borderRadius:'30px'}}>
             <CardItem
-              src='images/weather.PNG'
-              text='Check out my weather app'
+              src='images/message.PNG'
+              text='Check out my Message App'
               label='React'
-              path='https://weather-app-lemon-three.vercel.app/'
+              path='https://message-app-eta.vercel.app/'
             />
             <CardItem
               src='images/ultra.PNG'
-              text='Check out one of my projects'
+              text='Check out one of my designs'
               label='React'
               path='https://ultra-page-styled-components.vercel.app/'
             />
             <CardItem
-              src='images/cocktails.PNG'
-              text='Check out my cocktail offer'
+              src='images/amazon.PNG'
+              text='Check out my Amazone clone'
               label='React'
-              path='https://cocktail-offer.vercel.app/'
+              path='https://amazon-clone-seven.vercel.app/'
             />
           </ul>
         </div>
