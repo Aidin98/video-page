@@ -33,6 +33,8 @@ function Footer() {
             <Link to='/'>CSS</Link>
             <Link to='/'>JavaScript</Link>
             <Link to='/'>React.js</Link>
+            <Link to='/'>Redux</Link>
+            <Link to='/'>Commerce.js</Link>
           </div>
           <div data-aos='fade-right' class='footer-link-items'>
             <h2>Other</h2>
