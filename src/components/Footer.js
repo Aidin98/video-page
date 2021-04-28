@@ -32,7 +32,7 @@ function Footer() {
             <Link to='/'>HTML5</Link>
             <Link to='/'>CSS</Link>
             <Link to='/'>JavaScript</Link>
-            <Link to='/'>React.js</Link>
+            <Link to='/'>MERN Stack</Link>
             <Link to='/'>Redux</Link>
             <Link to='/'>Commerce.js</Link>
           </div>
