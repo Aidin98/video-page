@@ -33,8 +33,9 @@ function Footer() {
             <Link to='/'>CSS</Link>
             <Link to='/'>JavaScript</Link>
             <Link to='/'>MERN Stack</Link>
+            <Link to='/'>Next.js</Link>
             <Link to='/'>Redux</Link>
-            <Link to='/'>Commerce.js</Link>
+            <Link to='/'>GraphQl</Link>
           </div>
           <div data-aos='fade-right' class='footer-link-items'>
             <h2>Other</h2>
