@@ -36,6 +36,7 @@ function Footer() {
             <Link to='/'>Next.js</Link>
             <Link to='/'>Redux</Link>
             <Link to='/'>GraphQl</Link>
+     <Link to='/'>GraphQl</Link>
           </div>
           <div data-aos='fade-right' class='footer-link-items'>
             <h2>Other</h2>
